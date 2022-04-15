@@ -33,10 +33,10 @@ def wyr(update: Update, context: CallbackContext):
 
 
 __help__ = """
- • `/truth`*:* asks you a question
- • `/dare`*:* gives you a dare
- • `/tord`*:* can be a truth or a dare
- • `/rather`*:* would you rather
+ • `/truth`*:* bertanya padamu
+ • `/dare`*:* memberimu tantangan
+ • `/tord`*:* bisa menjadi kebenaran atau tantangan
+ • `/rather`*:* maukah kamu?
   """
 
 TRUTH_HANDLER = DisableAbleCommandHandler("truth", truth)
